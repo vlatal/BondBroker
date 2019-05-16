@@ -1,0 +1,61 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.1.4.RELEASE")
+        classpath("com.google.cloud.tools.jib:com.google.cloud.tools.jib.gradle.plugin:1.2.0")
+    }
+}
+
+group = 'springio'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'com.google.cloud.tools.jib'
+
+
+bootJar {
+    baseName = 'bond-broker-service'
+    version =  '0.0.1'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-data-jpa:2.1.4.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-hateoas:2.1.4.RELEASE")
+    compile("org.springframework.boot:spring-boot-devtools:2.1.4.RELEASE")
+    compile("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8")
+    compile("com.h2database:h2")
+
+    compileOnly("org.projectlombok:lombok:1.18.8")
+
+    annotationProcessor("org.projectlombok:lombok:1.18.8")
+
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
+
+jib {
+    from {
+        image = 'openjdk:8-jdk-alpine'
+    }
+    to {
+        image = 'vlatal/bond-broker'
+    }
+    container {
+        mainClass = 'com.bonds4all.Application'
+        ports = ['8080']
+        format = 'OCI'
+    }
+}
