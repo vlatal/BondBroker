@@ -1,7 +1,6 @@
 package com.bonds4all.controllers;
 
 import com.bonds4all.exceptions.RecordNotFoundException;
-import com.bonds4all.models.Client;
 import com.bonds4all.models.Record;
 import com.bonds4all.repositories.RecordRepository;
 import org.springframework.hateoas.Resource;
@@ -10,7 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -47,9 +45,8 @@ public class RecordController {
     }
 
     @GetMapping("/clients/{clientId}/records")
-    Resources<Resource<Record>> clientRecords(@PathVariable Long clientId) {
-        List<Resource<Record>> records = repository.findAll().stream()
-                .filter(record -> record.getClientId() == clientId)
+    Resources<Resource<Record>> clientRecords(@PathVariable long clientId) {
+        List<Resource<Record>> records = repository.findByClient_ClientId(clientId).stream()
                 .map(assembler::toResource)
                 .collect(Collectors.toList());
 
@@ -59,7 +56,7 @@ public class RecordController {
 
     // Single item
     @GetMapping("/records/{id}")
-    Resource<Record> one(@PathVariable Long id) {
+    Resource<Record> one(@PathVariable long id) {
 
         Record record = repository.findById(id)
                 .orElseThrow(() -> new RecordNotFoundException(id));

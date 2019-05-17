@@ -7,6 +7,7 @@ import com.bonds4all.models.Record;
 import com.bonds4all.repositories.ClientRepository;
 import org.springframework.hateoas.Resource;
 import org.springframework.hateoas.Resources;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.net.URI;
@@ -56,7 +58,7 @@ public class ClientController {
 
     // Single item
     @GetMapping("/{id}")
-    Resource<Client> one(@PathVariable Long id) {
+    Resource<Client> one(@PathVariable long id) {
 
         Client client = repository.findById(id)
                 .orElseThrow(() -> new ClientNotFoundException(id));
@@ -65,51 +67,33 @@ public class ClientController {
     }
 
     @PutMapping("/{id}")
-    Client replaceClient(@RequestBody Client newClient, @PathVariable Long id) {
+    Resource<Client> replaceClient(@RequestBody Client newClient, @PathVariable long id) {
 
-        return repository.findById(id)
-                .map(Client -> {
-                    Client.setFamilyName(newClient.getFamilyName());
-                    Client.setGivenName(newClient.getGivenName());
-                    Client.setOtherPersonalData(newClient.getOtherPersonalData());
-                    return repository.save(Client);
+        Client savedClient = repository.findById(id)
+                .map(client -> {
+                    client.setFamilyName(newClient.getFamilyName());
+                    client.setGivenName(newClient.getGivenName());
+                    client.setOtherPersonalData(newClient.getOtherPersonalData());
+                    return repository.save(client);
                 })
                 .orElseGet(() -> {
                     newClient.setClientId(id);
                     return repository.save(newClient);
                 });
+
+        return assembler.toResource(savedClient);
     }
 
     @DeleteMapping("/{id}")
-    ResponseEntity<?> deleteClient(@PathVariable Long id) {
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    Resource<Client> deleteClient(@PathVariable long id) {
+
+        Client client = repository.findById(id)
+                .orElseThrow(() -> new ClientNotFoundException(id));
+
         repository.deleteById(id);
 
-        return ResponseEntity.noContent().build();
+        // Say bye to deleted item
+        return assembler.toResource(client);
     }
-/*
-    @GetMapping("/{clientId}/records")
-    Resources<Resource<Record>> records(@PathVariable Long clientId) {
-        Client client = repository.findById(clientId)
-                .orElseThrow(() -> new ClientNotFoundException(clientId));
-
-        List<Resource<Record>> records = client.getRecords().stream()
-                .map(recordAssembler::toResource)
-                .collect(Collectors.toList());
-
-        return new Resources<>(records,
-                linkTo(methodOn(RecordController.class).all()).withSelfRel());
-    }
-
-    @GetMapping("/{clientId}/bonds")
-    Resources<Resource<Bond>> bonds(@PathVariable Long clientId) {
-        Client client = repository.findById(clientId)
-                .orElseThrow(() -> new ClientNotFoundException(clientId));
-
-        List<Resource<Bond>> bonds = client.getBonds().stream()
-                .map(bondAssembler::toResource)
-                .collect(Collectors.toList());
-
-        return new Resources<>(bonds,
-                linkTo(methodOn(RecordController.class).all()).withSelfRel());
-    }*/
 }

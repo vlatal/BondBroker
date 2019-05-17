@@ -35,9 +35,11 @@ targetCompatibility = 1.8
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-data-jpa:2.1.4.RELEASE")
     compile("org.springframework.boot:spring-boot-starter-hateoas:2.1.4.RELEASE")
-    compile("org.springframework.boot:spring-boot-devtools:2.1.4.RELEASE")
     compile("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.8")
     compile("com.h2database:h2")
+    
+    // Dev only
+    //compile("org.springframework.boot:spring-boot-devtools:2.1.4.RELEASE")
 
     compileOnly("org.projectlombok:lombok:1.18.8")
 
