@@ -32,32 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondNotFoundAdvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="16" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="267">
+              <caret line="83" column="51" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -65,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RecordController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="753">
+              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/controllers/BondControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="185">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,19 +63,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="374">
+                <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/repositories/RecordRepositoryIntegrationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/controllers/ClientControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="84" column="94" selection-start-line="84" selection-start-column="94" selection-end-line="84" selection-end-column="94" />
+            <state relative-caret-position="369">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="71" column="110" selection-start-line="71" selection-start-column="110" selection-end-line="71" selection-end-column="110" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,32 +98,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/models/Bond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            <state relative-caret-position="-561">
+              <caret line="37" column="68" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/models/Record.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/repositories/RecordRepositoryIntegrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-651">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/models/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/controllers/RootControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="46" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -185,10 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/model/Record.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/RecordRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/RecordResourceAssembler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/ClientController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/RecordController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/exception/ClientNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/exception/BondNotFoundException.java" />
@@ -204,18 +185,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/model/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controller/ClientResourceAssembler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/models/ClientResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/assemblers/RecordResourceAssembler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/assemblers/RecordResourceAssembler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ClientResourceAssembler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondResourceAssembler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RecordResourceAssembler.java" />
         <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ClientNotFoundExceptionAdvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/LoadDatabase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RecordController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/models/Record.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bonds4all/SmokeTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/models/ActionType.java" />
@@ -229,13 +202,25 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ExceptionAdvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondBrokerExceptionAdvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/repositories/RecordRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/models/Client.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bonds4all/repositories/RecordRepositoryIntegrationTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/bonds4all/controllers/BondControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ClientController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/models/Bond.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/models/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/models/Record.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/assemblers/RecordResourceAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/advices/BondNotFoundAdvice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondResourceAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ClientResourceAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RecordController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RecordResourceAssembler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bonds4all/repositories/RecordRepositoryIntegrationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/Application.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bonds4all/controllers/RootControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RootController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bonds4all/SmokeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ClientController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bonds4all/controllers/ClientControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/bonds4all/controllers/BondControllerTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -374,6 +359,46 @@
               <item name="bonds4all" type="462c0819:PsiDirectoryNode" />
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BondBroker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="BondBroker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: javax.persistence:javax.persistence-api:2.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="BondBroker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: javax.persistence:javax.persistence-api:2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.persistence-api-2.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BondBroker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: javax.persistence:javax.persistence-api:2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.persistence-api-2.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BondBroker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="BondBroker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.1.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BondBroker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.1.4.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-2.1.4.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -444,25 +469,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="BondBroker" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BondControllerTest.isRestrictedTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Docker.BondBrokerImage">
+    <configuration name="BondControllerTest.newBond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondBroker.test" />
       <extension name="coverage">
         <pattern>
@@ -472,55 +480,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bonds4all.controllers" />
       <option name="MAIN_CLASS_NAME" value="com.bonds4all.controllers.BondControllerTest" />
-      <option name="METHOD_NAME" value="isRestrictedTime" />
+      <option name="METHOD_NAME" value="newBond" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecordRepositoryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientControllerTest.newClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BondBroker.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bonds4all.repositories.*" />
+          <option name="PATTERN" value="com.bonds4all.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.bonds4all.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.bonds4all.repositories.RecordRepositoryIntegrationTest" />
+      <option name="PACKAGE_NAME" value="com.bonds4all.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.bonds4all.controllers.ClientControllerTest" />
+      <option name="METHOD_NAME" value="newClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientControllerTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BondBroker.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bonds4all.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bonds4all.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.bonds4all.controllers.ClientControllerTest" />
+      <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RootControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BondBroker.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bonds4all.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bonds4all.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.bonds4all.controllers.RootControllerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecordRepositoryIntegrationTest.findByClientAndIp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BondBroker.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bonds4all.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bonds4all.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.bonds4all.repositories.RecordRepositoryIntegrationTest" />
-      <option name="METHOD_NAME" value="findByClientAndIp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecordRepositoryIntegrationTest.findByClient_ClientId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BondBroker.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bonds4all.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bonds4all.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.bonds4all.repositories.RecordRepositoryIntegrationTest" />
-      <option name="METHOD_NAME" value="findByClient_ClientId" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -532,13 +540,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BondBrokerImage" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="bond-broker" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="vlatal/bond-broker:latest" />
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BondControllerTest.isRestrictedTime" />
-        <item itemvalue="Gradle.BondBroker" />
-        <item itemvalue="JUnit.RecordRepositoryIntegrationTest.findByClient_ClientId" />
-        <item itemvalue="JUnit.RecordRepositoryIntegrationTest" />
-        <item itemvalue="JUnit.RecordRepositoryIntegrationTest.findByClientAndIp" />
+        <item itemvalue="Docker.BondBrokerImage" />
+        <item itemvalue="JUnit.BondControllerTest.newBond" />
+        <item itemvalue="JUnit.ClientControllerTest.one" />
+        <item itemvalue="JUnit.ClientControllerTest.newClient" />
+        <item itemvalue="JUnit.RootControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -556,44 +576,44 @@
       <workItem from="1557927859486" duration="587000" />
       <workItem from="1557928475843" duration="20788000" />
       <workItem from="1557959012948" duration="1166000" />
-      <workItem from="1557960204991" duration="73264000" />
+      <workItem from="1557960204991" duration="81755000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RecordRepositoryIntegrationTest_findByClient_ClientId - 2019.05.17 at 16h 55m 01s.xml">
-      <configuration name="RecordRepositoryIntegrationTest.findByClient_ClientId" configurationId="JUnit" />
+    <history-entry file="BondControllerTest_newBond - 2019.05.18 at 02h 53m 52s.xml">
+      <configuration name="BondControllerTest.newBond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BondControllerTest_isRestrictedTime - 2019.05.17 at 23h 45m 26s.xml">
-      <configuration name="BondControllerTest.isRestrictedTime" configurationId="JUnit" />
+    <history-entry file="BondControllerTest_newBond - 2019.05.18 at 02h 56m 23s.xml">
+      <configuration name="BondControllerTest.newBond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BondControllerTest_isRestrictedTime - 2019.05.17 at 23h 45m 43s.xml">
-      <configuration name="BondControllerTest.isRestrictedTime" configurationId="JUnit" />
+    <history-entry file="ClientControllerTest_newClient - 2019.05.18 at 02h 57m 40s.xml">
+      <configuration name="ClientControllerTest.newClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BondControllerTest_isRestrictedTime - 2019.05.17 at 23h 48m 50s.xml">
-      <configuration name="BondControllerTest.isRestrictedTime" configurationId="JUnit" />
+    <history-entry file="ClientControllerTest_newClient - 2019.05.18 at 02h 59m 09s.xml">
+      <configuration name="ClientControllerTest.newClient" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BondControllerTest_isRestrictedTime - 2019.05.17 at 23h 49m 38s.xml">
-      <configuration name="BondControllerTest.isRestrictedTime" configurationId="JUnit" />
+    <history-entry file="BondControllerTest_newBond - 2019.05.18 at 02h 59m 49s.xml">
+      <configuration name="BondControllerTest.newBond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BondControllerTest_isRestrictedTime - 2019.05.17 at 23h 55m 42s.xml">
-      <configuration name="BondControllerTest.isRestrictedTime" configurationId="JUnit" />
+    <history-entry file="ClientControllerTest_one - 2019.05.18 at 03h 02m 20s.xml">
+      <configuration name="ClientControllerTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BondControllerTest_isRestrictedTime - 2019.05.17 at 23h 59m 13s.xml">
-      <configuration name="BondControllerTest.isRestrictedTime" configurationId="JUnit" />
+    <history-entry file="ClientControllerTest_one - 2019.05.18 at 03h 02m 49s.xml">
+      <configuration name="ClientControllerTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BondControllerTest_isRestrictedTime - 2019.05.18 at 00h 03m 30s.xml">
-      <configuration name="BondControllerTest.isRestrictedTime" configurationId="JUnit" />
+    <history-entry file="ClientControllerTest_one - 2019.05.18 at 03h 09m 32s.xml">
+      <configuration name="ClientControllerTest.one" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BondControllerTest_isRestrictedTime - 2019.05.18 at 00h 19m 13s.xml">
-      <configuration name="BondControllerTest.isRestrictedTime" configurationId="JUnit" />
+    <history-entry file="BondControllerTest_newBond - 2019.05.18 at 03h 10m 17s.xml">
+      <configuration name="BondControllerTest.newBond" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BondControllerTest_isRestrictedTime - 2019.05.18 at 00h 20m 09s.xml">
-      <configuration name="BondControllerTest.isRestrictedTime" configurationId="JUnit" />
+    <history-entry file="BondControllerTest_newBond - 2019.05.18 at 03h 11m 02s.xml">
+      <configuration name="BondControllerTest.newBond" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99619000" />
+    <option name="totallyTimeSpent" value="108110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,7 +628,7 @@
     <frame x="1915" y="0" width="1930" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18395722" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18395722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -617,8 +637,8 @@
       <window_info anchor="bottom" id="Problems" order="0" weight="0.32968238" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32968238" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.44578314" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3274918" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.44517544" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32968238" />
@@ -626,7 +646,7 @@
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32858709" />
       <window_info anchor="bottom" id="Spring" order="10" weight="0.32858709" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968238" />
-      <window_info anchor="bottom" id="Docker" order="12" weight="0.32968238" />
+      <window_info active="true" anchor="bottom" id="Docker" order="12" visible="true" weight="0.32968238" />
       <window_info active="true" anchor="bottom" id="Gradle View" order="13" visible="true" weight="0.32968238" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Tail" order="15" />
@@ -661,7 +681,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/bonds4all/repositories/RecordRepositoryIntegrationTest.java</url>
-          <line>96</line>
+          <line>86</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
@@ -690,97 +710,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.9.Final/e0922b9cc0621641bdec33b4e2869d033f918a4c/hibernate-core-5.3.9.Final-sources.jar!/org/hibernate/tuple/entity/AbstractEntityTuplizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="223" selection-start-line="223" selection-end-line="223" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.9.Final/e0922b9cc0621641bdec33b4e2869d033f918a4c/hibernate-core-5.3.9.Final-sources.jar!/org/hibernate/property/access/spi/GetterFieldImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/a0ad4e203304ccab7e01266fa814115850edb8a9/jackson-annotations-2.9.0-sources.jar!/com/fasterxml/jackson/annotation/JsonPropertyOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/SmokeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="780" column="23" selection-start-line="780" selection-start-column="23" selection-end-line="780" selection-end-column="23" />
-          <folding>
-            <element signature="e#29571#29572#0" expanded="true" />
-            <element signature="e#29621#29622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.9.Final/e0922b9cc0621641bdec33b4e2869d033f918a4c/hibernate-core-5.3.9.Final-sources.jar!/org/hibernate/engine/internal/ForeignKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="228" column="9" selection-start-line="228" selection-start-column="9" selection-end-line="228" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.9.Final/e0922b9cc0621641bdec33b4e2869d033f918a4c/hibernate-core-5.3.9.Final-sources.jar!/org/hibernate/persister/entity/AbstractEntityPersister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="4632" selection-start-line="4632" selection-end-line="4632" />
-          <folding>
-            <element signature="e#155597#155598#0" expanded="true" />
-            <element signature="e#155636#155637#0" expanded="true" />
-            <element signature="e#155994#155995#0" expanded="true" />
-            <element signature="e#156060#156061#0" expanded="true" />
-            <element signature="e#164650#164651#0" expanded="true" />
-            <element signature="e#164698#164699#0" expanded="true" />
-            <element signature="e#184140#184141#0" expanded="true" />
-            <element signature="e#184168#184169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.3.9.Final/e0922b9cc0621641bdec33b4e2869d033f918a4c/hibernate-core-5.3.9.Final-sources.jar!/org/hibernate/event/internal/AbstractSaveEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="339" selection-start-line="339" selection-end-line="339" />
-          <folding>
-            <element signature="e#12152#12153#0" expanded="true" />
-            <element signature="e#12171#12172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/MessageResourceAssembler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -788,34 +717,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondResourceAssembler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ClientNotFoundAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ClientResourceAssembler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RecordNotFoundAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -840,37 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/models/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/exceptions/BondBrokerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RecordResourceAssembler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/models/ActionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk/src.zip!/java/util/Optional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -882,7 +752,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondBrokerExceptionAdvice.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/advices/BondBrokerExceptionAdvice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
@@ -997,13 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/repositories/RecordRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.6.RELEASE/dfb9e2cce0376ed468b6988b88a08fa7fb43f355/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1011,64 +874,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/repositories/RecordRepositoryIntegrationTest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.persistence/javax.persistence-api/2.2/462dff65f6f8bde02ee9d8afe07fe9d50268199c/javax.persistence-api-2.2-sources.jar!/javax/persistence/GenerationType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="84" column="94" selection-start-line="84" selection-start-column="94" selection-end-line="84" selection-end-column="94" />
+        <state relative-caret-position="-85">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/controllers/BondControllerTest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.persistence/javax.persistence-api/2.2/462dff65f6f8bde02ee9d8afe07fe9d50268199c/javax.persistence-api-2.2-sources.jar!/javax/persistence/GeneratedValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondNotFoundAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="16" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RecordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="364">
+          <caret line="69" column="11" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/models/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/models/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1077,8 +910,129 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/models/Record.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        <state relative-caret-position="271">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/repositories/BondRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/repositories/ClientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/repositories/RecordRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/advices/RecordNotFoundAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/advices/ClientNotFoundAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/advices/BondNotFoundAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondResourceAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RecordResourceAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/exceptions/BondBrokerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/models/ActionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.4.RELEASE/2edd9ce8f7fe3dafb83eef9248b882abc6fe6192/spring-boot-autoconfigure-2.1.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ClientResourceAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RootController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/RecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="753">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1087,15 +1041,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/models/Bond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        <state relative-caret-position="-561">
+          <caret line="37" column="68" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/ClientController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        <state relative-caret-position="267">
+          <caret line="83" column="51" selection-start-line="83" selection-start-column="51" selection-end-line="83" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bonds4all/controllers/BondController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="71" column="110" selection-start-line="71" selection-start-column="110" selection-end-line="71" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/repositories/RecordRepositoryIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/controllers/RootControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/controllers/ClientControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bonds4all/controllers/BondControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -10,8 +10,8 @@ Note: Make sure that the port 8080 is being exposed from Docker.
 ### Run in console
 * gradlew bootRun
 
-## Postman collection
-See postman folder.
+## Endpoints
+Described in Postman collection (see postman folder).
 
 ## Notes
 * You can use local gradle binary ("gradle") instead of bundled gradle wrapper ("gradlew")
@@ -21,4 +21,3 @@ See postman folder.
 * Lot of tests is missing
 * Spring security is not used
 * Database is not optimised
-* 
