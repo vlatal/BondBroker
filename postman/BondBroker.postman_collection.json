@@ -27,6 +27,27 @@
 			"response": []
 		},
 		{
+			"name": "root",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ENDPOINT}}/",
+					"host": [
+						"{{ENDPOINT}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "newClient",
 			"request": {
 				"method": "POST",
@@ -108,7 +129,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"term\": \"P5Y\"\n}"
+					"raw": "{\n    \"term\": \"P10Y\"\n}"
 				},
 				"url": {
 					"raw": "{{ENDPOINT}}/bonds/4",
