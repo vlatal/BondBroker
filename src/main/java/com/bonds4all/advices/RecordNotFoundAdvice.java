@@ -1,4 +1,4 @@
-package com.bonds4all.controllers;
+package com.bonds4all.advices;
 
 import com.bonds4all.exceptions.RecordNotFoundException;
 import com.bonds4all.models.Message;

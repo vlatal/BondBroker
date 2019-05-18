@@ -8,10 +8,13 @@ import com.bonds4all.repositories.BondRepository;
 import com.bonds4all.repositories.ClientRepository;
 import com.bonds4all.repositories.RecordRepository;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Profile;
 
 import java.math.BigDecimal;
 import java.net.InetAddress;
@@ -36,7 +39,8 @@ public class Application {
      * @return
      */
     @Bean
-    CommandLineRunner initDatabase(ClientRepository clientRepository, BondRepository bondRepository, RecordRepository recordRepository) {
+    @Profile("!test")
+    CommandLineRunner initDatabase(@Autowired ClientRepository clientRepository, BondRepository bondRepository, RecordRepository recordRepository) {
         return args -> {
             log.info("Preloading " + clientRepository.save(new Client("Jan Amos", "Komenský", "učitel národů")));
             Client client = clientRepository.save(new Client("Pavel", "Nedvěd", "fotbalista"));

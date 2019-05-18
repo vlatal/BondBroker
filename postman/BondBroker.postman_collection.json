@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "4fdfc887-cdf4-49fe-8b50-0eb59322249c",
+		"name": "BondBroker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "listClients",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ENDPOINT}}/clients",
+					"host": [
+						"{{ENDPOINT}}"
+					],
+					"path": [
+						"clients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newClient",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"givenName\": \"František\",\n    \"familyName\": \"Nedvěd\",\n    \"otherPersonalData\": \"countryman\"\n}"
+				},
+				"url": {
+					"raw": "{{ENDPOINT}}/clients",
+					"host": [
+						"{{ENDPOINT}}"
+					],
+					"path": [
+						"clients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newBond",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"interestRate\": \"5\",\n    \"term\": \"P5Y\",\n    \"amount\": \"1001\"\n}"
+				},
+				"url": {
+					"raw": "{{ENDPOINT}}/clients/2/bonds",
+					"host": [
+						"{{ENDPOINT}}"
+					],
+					"path": [
+						"clients",
+						"2",
+						"bonds"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editBond",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"term\": \"P5Y\"\n}"
+				},
+				"url": {
+					"raw": "{{ENDPOINT}}/bonds/4",
+					"host": [
+						"{{ENDPOINT}}"
+					],
+					"path": [
+						"bonds",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "retrievesNonExistingClient",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ENDPOINT}}/clients/8",
+					"host": [
+						"{{ENDPOINT}}"
+					],
+					"path": [
+						"clients",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deletesClient",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ENDPOINT}}/clients/1",
+					"host": [
+						"{{ENDPOINT}}"
+					],
+					"path": [
+						"clients",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "retrieveClientsBonds",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ENDPOINT}}/clients/2/bonds",
+					"host": [
+						"{{ENDPOINT}}"
+					],
+					"path": [
+						"clients",
+						"2",
+						"bonds"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "retrievesClientsRecords",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ENDPOINT}}/clients/2/records",
+					"host": [
+						"{{ENDPOINT}}"
+					],
+					"path": [
+						"clients",
+						"2",
+						"records"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "retrievesBonds",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ENDPOINT}}/bonds",
+					"host": [
+						"{{ENDPOINT}}"
+					],
+					"path": [
+						"bonds"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "retrievesRecords",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{ENDPOINT}}/records",
+					"host": [
+						"{{ENDPOINT}}"
+					],
+					"path": [
+						"records"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

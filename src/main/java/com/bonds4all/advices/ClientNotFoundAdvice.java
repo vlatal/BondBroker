@@ -1,6 +1,6 @@
-package com.bonds4all.controllers;
+package com.bonds4all.advices;
 
-import com.bonds4all.exceptions.BondBrokerException;
+import com.bonds4all.exceptions.ClientNotFoundException;
 import com.bonds4all.models.Message;
 import org.springframework.hateoas.Resource;
 import org.springframework.http.HttpStatus;
@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ControllerAdvice
-class BondBrokerExceptionAdvice {
+class ClientNotFoundAdvice {
 
     @ResponseBody
-    @ExceptionHandler(BondBrokerException.class)
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    Resource<Message> ExceptionHandler(BondBrokerException ex) {
+    @ExceptionHandler(ClientNotFoundException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    Resource<Message> ClientNotFoundHandler(ClientNotFoundException ex) {
         return new Resource<>(Message.createWithNow(ex.getMessage()));
     }
 }

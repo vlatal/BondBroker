@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
+import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.math.BigDecimal;
@@ -20,18 +21,13 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest
+@ActiveProfiles("test")
 public class RecordRepositoryIntegrationTest {
     @Autowired
     private TestEntityManager entityManager;
 
     @Autowired
     private RecordRepository recordRepository;
-
-    @Autowired
-    private ClientRepository clientRepository;
-
-    @Autowired
-    private BondRepository bondRepository;
 
     private Client client0;
     private Client client1;
@@ -71,12 +67,6 @@ public class RecordRepositoryIntegrationTest {
         record5 = entityManager.persist(new Record("127.0.0.1", client1, ActionType.BUY_BOND, bond5));
 
         entityManager.flush();
-
-        /*Mockito.when(recordRepository.findByClient_ClientId(client0.getClientId()))
-                .thenReturn(Arrays.asList(record0));
-
-        Mockito.when(recordRepository.findByClientAndIp(client1, "1.1.1.1"))
-                .thenReturn(Arrays.asList(record1));*/
     }
 
     @Test

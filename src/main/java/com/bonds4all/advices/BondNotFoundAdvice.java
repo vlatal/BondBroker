@@ -1,4 +1,4 @@
-package com.bonds4all.controllers;
+package com.bonds4all.advices;
 
 import com.bonds4all.exceptions.BondNotFoundException;
 import com.bonds4all.models.Message;

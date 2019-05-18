@@ -69,8 +69,7 @@ public class BondController {
      * @return
      */
     @PostMapping("/clients/{clientId}/bonds")
-    @Transactional
-    Resource<Bond> newBond(HttpServletRequest httpRequest, @RequestBody Bond newBond,  @PathVariable long clientId) {
+    Resource<Bond> newBond(HttpServletRequest httpRequest, @RequestBody Bond newBond,  @PathVariable("clientId") long clientId) {
 
         Client client = clientRepository.findById(clientId).orElseThrow(() -> new ClientNotFoundException(clientId));
 

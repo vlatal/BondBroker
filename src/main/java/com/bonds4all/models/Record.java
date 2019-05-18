@@ -16,6 +16,7 @@ import org.springframework.hateoas.ResourceSupport;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import java.time.ZonedDateTime;
@@ -28,7 +29,7 @@ import java.time.ZonedDateTime;
 @JsonPropertyOrder({"id", "client", "bond", "actionType", "ip"})
 public class Record extends ResourceSupport {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     @JsonProperty("id")
     private Long recordId;
